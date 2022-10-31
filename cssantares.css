@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/*NAVBAR ONLY*/
+
+.nol{
+	height: 100vh;
+	width: 100%;
+	background-image: url(landscape.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*.boxmenu{
+	background-color: mediumpurple;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /*space-between*/
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+h2{
+	color: white;
+}
+span{
+	color: darkred;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+/*	background-color: skyblue;
+	padding: 6px;
+	border-radius: 30px;*/
+}
+nav ul li a:hover{
+	background-color: darksalmon;
+	padding: 4px;
+	border-radius: 30px;
+}
+.premium{
+	border: none;
+	background: red;
+	border-radius: 30px;
+	padding: 12px 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+.premium:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+/*NAVBAR END*/
+.main
+{
+	font-family: copperplate;
+	font-weight: bold;
+	color: darkred;
+	font-size: 65px;
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+#main2{
+	color: darkred;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+    font-family: courier;
+
+}
+
+/*LOGIN MENU*/
+
+
+.formlogin{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 80px;
+}
+
+.Userpass{
+	color: darkred;
+	font-weight: bold;
+}
+
+.boxuserpass{
+	height: 35px;
+	width: 250px;
+	background: indianred;
+	border-radius:10px;
+	margin: 10px 0 10px 0;
+	border: none;
+}
+
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    background: whitesmoke;
+    margin: 0 39em;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred;
+}
+
+.loginbutton:hover{
+	transform: scale(1.1);
+	cursor: help;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
